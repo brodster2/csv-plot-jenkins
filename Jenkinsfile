@@ -8,7 +8,7 @@ pipeline {
                     csvSeries: [[
                         displayTableFlag: false,
                         exclusionValues: '',
-                        file: 'data.csv',
+                        file: 'file.csv',
                         inclusionFlag: 'OFF',
                         url: '']],
                     group: 'Spark Metrics',
