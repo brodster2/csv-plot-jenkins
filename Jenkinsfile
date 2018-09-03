@@ -14,6 +14,7 @@ pipeline {
                     group: 'Spark Metrics',
                     numBuilds: '10',
                     style: 'line',
+                    legend: true,
                     title: 'Spark Performance Metrics',
                     yaxis: 'Usage %',
                     yaxisMaximum: '100',
