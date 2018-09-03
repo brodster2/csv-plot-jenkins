@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Create Plot from CSV') {
             steps {
-                plot csvFileName: 'plot-8e7e56f2-ead7-4330-a646-a69c55dc0131.csv',
+                plot csvFileName: 'plot-data.csv',
                     csvSeries: [[
                         displayTableFlag: false,
                         exclusionValues: '',
